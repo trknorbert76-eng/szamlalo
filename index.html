@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Statisztika</title>
+
+<style>
+body{
+  margin:0;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#000;
+  font-family:Arial,sans-serif;
+}
+
+.container{
+  text-align:center;
+  width:90%;
+  max-width:400px;
+}
+
+h1{
+  color:#fff;
+  margin-bottom:40px;
+}
+
+.btn{
+  display:block;
+  width:100%;
+  padding:20px;
+  margin:15px 0;
+  font-size:18px;
+  border:none;
+  border-radius:12px;
+  cursor:pointer;
+}
+
+.telapo{
+  background:#2b7cff;
+  color:#fff;
+}
+
+.szuletes{
+  background:#ff7a2b;
+  color:#fff;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+  <h1>Statisztika</h1>
+
+  <button class="btn telapo" onclick="openTelapo()">
+    🎅 Télapós statisztika
+  </button>
+
+  <button class="btn szuletes" onclick="openSzuletes()">
+    🎂 Szülinapos statisztika
+  </button>
+</div>
+
+<script>
+function openTelapo(){
+  window.open("https://IDE_JÖN_A_TELAPOS_LINK", "_blank");
+}
+
+function openSzuletes(){
+  window.open("https://IDE_JÖN_A_SZULINAPOS_LINK", "_blank");
+}
+</script>
+
+</body>
+</html>
